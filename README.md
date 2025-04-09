@@ -6,13 +6,12 @@
 1. [설치 방법](#1-설치-방법)
 
 ## 0. Curriculum
-- Week 1 - CS basic & Code debuging
-- Week 2 - Clean Code
-- Week 3 - Torch + Resnet + Wandb
-- Week 4 - Resnet + Hugging Face
-- Week 5 - LLM Finetuning + Hugging Face
-- Week 6 - Data Analaysis
-- Week 7 - Model Selection
+- Week 1 - CS basic & Code debuging & Clean Code
+- Week 2 - Torch + Resnet + Wandb
+- Week 3 - Resnet + Hugging Face
+- Week 4 - LLM Finetuning + Hugging Face
+- Week 5 - Data Analaysis
+- Week 6 - Model Selection
 
 ## 1. 설치 방법
 
