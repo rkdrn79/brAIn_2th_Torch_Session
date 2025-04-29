@@ -7,11 +7,12 @@
 
 ## 0. Curriculum
 - Week 1 - CS basic & Code debuging & Clean Code
-- Week 2 - Torch + Resnet + Wandb
-- Week 3 - Resnet + Hugging Face
-- Week 4 - LLM Finetuning + Hugging Face
-- Week 5 - Data Analaysis
-- Week 6 - Model Selection
+- Week 2 - Torch + MLP Training
+- Week 3 - Resnet + Wandb
+- Week 4 - Resnet + Hugging Face
+- Week 5 - LLM Finetuning + Hugging Face
+- Week 6 - Data Analaysis
+- Week 7 - Model Selection
 
 ## 1. 설치 방법
 

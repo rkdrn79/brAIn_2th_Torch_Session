@@ -23,7 +23,6 @@ for epoch in range(100):
 print("Final weight:", model.weight.data)
 print("Final bias:", model.bias.data)
 
-"""
 import torch
 import torch.nn as nn
 import torch.optim as optim
@@ -62,4 +61,3 @@ x, y = generate_data()
 model = create_model()
 model = train(model, x, y)
 print_parameters(model)
-"""

@@ -8,7 +8,9 @@ class MyDataset(Dataset):
         self.labels = [0, 1, 0]
 
     def __getitem__(self, idx):
-        return self.data[idx], self.labels[idx]
+        data = torch.tensor(self.data[idx], dtype=torch.float32)
+        labels = torch.tensor(self.labels[idx], dtype=torch.long)
+        return data, labels
 
     def __len__(self):
         return len(self.data)
@@ -19,6 +21,7 @@ class Model(nn.Module):
         self.fc = nn.Linear(2, 2)
 
     def forward(self, x):
+        breakpoint()
         return self.fc(x)
 
 dataset = MyDataset()
