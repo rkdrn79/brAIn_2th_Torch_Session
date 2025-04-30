@@ -92,6 +92,7 @@ class Trainer:
         for batch_idx, batch in enumerate(self.train_loader):
             # Compute loss
             loss, _ = self.compute_loss(batch)
+            
             # Backward pass
             # TODO : backward pass
 
