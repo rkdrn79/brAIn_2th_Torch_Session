@@ -93,9 +93,7 @@ class Trainer:
             # Compute loss
             loss, _ = self.compute_loss(batch)
             # Backward pass
-            self.optimizer.zero_grad()
-            loss.backward()
-            self.optimizer.step()
+            # TODO : backward pass
 
             total_loss += loss.item()
 
