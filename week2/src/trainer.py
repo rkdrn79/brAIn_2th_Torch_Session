@@ -94,7 +94,9 @@ class Trainer:
             loss, _ = self.compute_loss(batch)
             
             # Backward pass
-            # TODO : backward pass
+            self.optimizer.zero_grad()
+            loss.backward()
+            self.optimizer.step()
 
             total_loss += loss.item()
 
@@ -131,6 +133,7 @@ class Trainer:
         targets = batch['targets'].to(self.device)
 
         outputs = self.model(inputs)
+        
         loss = self.loss_fn(outputs, targets.unsqueeze(1))
 
         return loss, outputs
