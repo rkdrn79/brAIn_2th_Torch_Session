@@ -1,7 +1,0 @@
-{"time":"2025-05-13T17:02:38.778181+09:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"/Users/mingu/Desktop/CODING/brAIn/2th/brAIn_2th_Torch_Session/week3/wandb/run-20250513_170238-jswry7v3/logs/debug-core.log"}
-{"time":"2025-05-13T17:02:39.141018+09:00","level":"INFO","msg":"created new stream","id":"jswry7v3"}
-{"time":"2025-05-13T17:02:39.141052+09:00","level":"INFO","msg":"stream: started","id":"jswry7v3"}
-{"time":"2025-05-13T17:02:39.141097+09:00","level":"INFO","msg":"handler: started","stream_id":"jswry7v3"}
-{"time":"2025-05-13T17:02:39.14125+09:00","level":"INFO","msg":"sender: started","stream_id":"jswry7v3"}
-{"time":"2025-05-13T17:02:39.141279+09:00","level":"INFO","msg":"writer: Do: started","stream_id":"jswry7v3"}
-{"time":"2025-05-13T17:02:39.438163+09:00","level":"INFO","msg":"Starting system monitor"}
