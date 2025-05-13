@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/Users/mingu/Desktop/CODING/brAIn/2th/brAIn_2th_Torch_Session/week3/train.py", line 77, in <module>
+    main(args)
+  File "/Users/mingu/Desktop/CODING/brAIn/2th/brAIn_2th_Torch_Session/week3/train.py", line 42, in main
+    training_args = TrainingArguments(
+TypeError: TrainingArguments.__init__() got an unexpected keyword argument 'evaluation_strategy'

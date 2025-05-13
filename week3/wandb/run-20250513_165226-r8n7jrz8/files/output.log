@@ -1,0 +1,28 @@
+  0%|                                                                                                | 0/150000 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "/Users/mingu/Desktop/CODING/brAIn/2th/brAIn_2th_Torch_Session/week3/train.py", line 76, in <module>
+    main(args)
+  File "/Users/mingu/Desktop/CODING/brAIn/2th/brAIn_2th_Torch_Session/week3/train.py", line 70, in main
+    trainer.train()
+  File "/Users/mingu/miniforge3/envs/ag/lib/python3.10/site-packages/transformers/trainer.py", line 1780, in train
+    return inner_training_loop(
+  File "/Users/mingu/miniforge3/envs/ag/lib/python3.10/site-packages/transformers/trainer.py", line 2085, in _inner_training_loop
+    for step, inputs in enumerate(epoch_iterator):
+  File "/Users/mingu/miniforge3/envs/ag/lib/python3.10/site-packages/accelerate/data_loader.py", line 452, in __iter__
+    current_batch = next(dataloader_iter)
+  File "/Users/mingu/miniforge3/envs/ag/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 634, in __next__
+    data = self._next_data()
+  File "/Users/mingu/miniforge3/envs/ag/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1346, in _next_data
+    return self._process_data(data)
+  File "/Users/mingu/miniforge3/envs/ag/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1372, in _process_data
+    data.reraise()
+  File "/Users/mingu/miniforge3/envs/ag/lib/python3.10/site-packages/torch/_utils.py", line 644, in reraise
+    raise exception
+ValueError: Caught ValueError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "/Users/mingu/miniforge3/envs/ag/lib/python3.10/site-packages/torch/utils/data/_utils/worker.py", line 308, in _worker_loop
+    data = fetcher.fetch(index)
+  File "/Users/mingu/miniforge3/envs/ag/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 54, in fetch
+    return self.collate_fn(data)
+  File "/Users/mingu/Desktop/CODING/brAIn/2th/brAIn_2th_Torch_Session/week3/src/dataset/data_collator.py", line 15, in __call__
+    data = torch.tensor(data, dtype=torch.float32)
+ValueError: too many dimensions 'str'

@@ -1,0 +1,7 @@
+{"time":"2025-05-13T17:41:19.213835+09:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"/Users/mingu/Desktop/CODING/brAIn/2th/brAIn_2th_Torch_Session/week3/wandb/run-20250513_174119-rk5l0klm/logs/debug-core.log"}
+{"time":"2025-05-13T17:41:19.648341+09:00","level":"INFO","msg":"created new stream","id":"rk5l0klm"}
+{"time":"2025-05-13T17:41:19.648377+09:00","level":"INFO","msg":"stream: started","id":"rk5l0klm"}
+{"time":"2025-05-13T17:41:19.648384+09:00","level":"INFO","msg":"writer: Do: started","stream_id":"rk5l0klm"}
+{"time":"2025-05-13T17:41:19.64839+09:00","level":"INFO","msg":"handler: started","stream_id":"rk5l0klm"}
+{"time":"2025-05-13T17:41:19.648394+09:00","level":"INFO","msg":"sender: started","stream_id":"rk5l0klm"}
+{"time":"2025-05-13T17:41:19.922358+09:00","level":"INFO","msg":"Starting system monitor"}

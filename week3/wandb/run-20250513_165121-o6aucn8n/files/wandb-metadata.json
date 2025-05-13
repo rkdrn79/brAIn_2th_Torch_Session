@@ -1,0 +1,44 @@
+{
+  "os": "macOS-15.1.1-arm64-arm-64bit",
+  "python": "CPython 3.10.14",
+  "startedAt": "2025-05-13T07:51:21.837677Z",
+  "program": "/Users/mingu/Desktop/CODING/brAIn/2th/brAIn_2th_Torch_Session/week3/train.py",
+  "codePath": "week3/train.py",
+  "git": {
+    "remote": "https://github.com/rkdrn79/brAIn_2th_Torch_Session.git",
+    "commit": "5cf50602f9072a903f51d22ed37e1b49dd14144b"
+  },
+  "email": "rkdrn7979@naver.com",
+  "root": "/Users/mingu/Desktop/CODING/brAIn/2th/brAIn_2th_Torch_Session/week3",
+  "host": "gangminguui-MacBookPro.local",
+  "executable": "/Users/mingu/miniforge3/envs/ag/bin/python",
+  "codePathLocal": "train.py",
+  "cpu_count": 11,
+  "cpu_count_logical": 11,
+  "disk": {
+    "/": {
+      "total": "494384795648",
+      "used": "327156121600"
+    },
+    "/System/Volumes/Data": {
+      "total": "494384795648",
+      "used": "327156121600"
+    }
+  },
+  "memory": {
+    "total": "19327352832"
+  },
+  "cpu": {
+    "count": 11,
+    "countLogical": 11
+  },
+  "apple": {
+    "name": "Apple M3 Pro",
+    "ecpuCores": 6,
+    "pcpuCores": 5,
+    "gpuCores": 14,
+    "memoryGb": 18,
+    "swapTotalBytes": "5368709120",
+    "ramTotalBytes": "19327352832"
+  }
+}

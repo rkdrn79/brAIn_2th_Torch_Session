@@ -1,0 +1,13 @@
+[34m[1mwandb[0m: [33mWARNING[0m The `run_name` is currently set to the same value as `TrainingArguments.output_dir`. If this was not intended, please specify a different run name by setting the `TrainingArguments.run_name` parameter.
+  0%|                                                                                                  | 0/4680 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "/Users/mingu/Desktop/CODING/brAIn/2th/brAIn_2th_Torch_Session/week3/train.py", line 76, in <module>
+    main(args)
+  File "/Users/mingu/Desktop/CODING/brAIn/2th/brAIn_2th_Torch_Session/week3/train.py", line 70, in main
+    trainer.train()
+  File "/Users/mingu/miniforge3/envs/transformer/lib/python3.10/site-packages/transformers/trainer.py", line 2245, in train
+    return inner_training_loop(
+  File "/Users/mingu/miniforge3/envs/transformer/lib/python3.10/site-packages/transformers/trainer.py", line 2560, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+  File "/Users/mingu/miniforge3/envs/transformer/lib/python3.10/site-packages/transformers/trainer.py", line 3736, in training_step
+    loss = self.compute_loss(model, inputs, num_items_in_batch=num_items_in_batch)
+TypeError: BaseTrainer.compute_loss() got an unexpected keyword argument 'num_items_in_batch'
