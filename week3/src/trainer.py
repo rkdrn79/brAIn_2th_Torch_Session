@@ -20,6 +20,7 @@ class BaseTrainer(Trainer):
         # Compute loss
         loss = self.loss_fn(output, label)
 
+        
         if return_outputs:
             return loss, output, label
         return loss

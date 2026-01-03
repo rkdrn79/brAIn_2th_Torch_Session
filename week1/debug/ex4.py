@@ -18,10 +18,9 @@ class MyDataset(Dataset):
 class Model(nn.Module):
     def __init__(self):
         super().__init__()
-        self.fc = nn.Linear(2, 2)
+        self.fc = nn.Linear(3, 2)
 
     def forward(self, x):
-        breakpoint()
         return self.fc(x)
 
 dataset = MyDataset()

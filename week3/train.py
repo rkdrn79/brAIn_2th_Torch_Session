@@ -12,7 +12,6 @@ import wandb
 
 from arguments import get_arguments
 
-from src.trainer import Trainer
 from src.dataset.get_dataset import get_dataset
 from src.model.get_model import get_model
 from src.trainer import BaseTrainer
@@ -48,6 +47,7 @@ def main(args):
         gradient_accumulation_steps=args.gradient_accumulation_steps,
         per_device_eval_batch_size=args.per_device_eval_batch_size,
         num_train_epochs=args.num_train_epochs,
+        learning_rate=args.learning_rate,
         warmup_ratio=args.warmup_ratio,
         logging_steps=10,
         metric_for_best_model="f1_score",
@@ -64,8 +64,8 @@ def main(args):
         args=training_args,
         train_dataset=train_dataset,
         eval_dataset=val_dataset,
-        compute_metrics=compute_metrics,
         data_collator=data_collator,
+        compute_metrics=compute_metrics,
     )
 
     
